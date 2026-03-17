@@ -3,7 +3,7 @@ const axios = require("axios");
 const app = express();
 
 app.get("/", (req, res) => {
-res.send("Hello Open Source Lab");
+res.send("Hello Open Source Lab, Server is Started");
 });
 
 // JSON Route
@@ -11,7 +11,7 @@ app.get("/api/info", (req, res) => {
 res.json({
 name: "NPM Lab",
 subject: "Open Source Technology",
-semester: "EC5 BE 6th Sem"
+semester: "BE 6th Sem"
 });
 });
 
